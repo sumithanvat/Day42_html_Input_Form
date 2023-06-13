@@ -55,11 +55,16 @@ error-output{
     color: red;
 }
     
-/* const pwd = document.querySelector('#pwd');
-const pwdError = document.querySelector('.pwd-error'); 
-pwd.addEventListener('input', function() {
-let nameRegex = RegExp('^[A-Z]{1}[a-z]{2,}$'); 
-if (nameRegex.test(pwd.value))
-  pwdError.textContent = "";
-else pwdError.textContent = "Password is Incorrect";
-}); */
+@media only screen and (max-width:360px) {
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    label{
+        width: 30%;
+        font-size: 12px;
+    }
+    .nativeDateTimePicker{
+        width: 60%;
+    }
+}
